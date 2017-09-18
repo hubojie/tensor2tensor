@@ -283,7 +283,7 @@ registrations.
 
 ## Adding a dataset
 
-To add a new dataset, subclass
+To add a new dataset,
 [`Problem`](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/data_generators/problem.py)
 and register it with `@registry.register_problem`. See
 [`TranslateEndeWmt8k`](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/data_generators/wmt.py)
